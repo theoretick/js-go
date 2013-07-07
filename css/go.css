@@ -1,0 +1,55 @@
+/* go board css */
+
+
+
+/* BOARD FORMAT */
+
+.sidebar {
+  position: absolute;
+  font-family: Futura, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5;
+}
+
+.goboard {
+  border: 5px gray solid;
+  background-color: tan;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+.gutter {
+  margin: 2%;
+  background-color: tan;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+.box {
+  display: inline-block;
+  border: 1px solid black;
+  width: 95px;
+  height: 95px;
+}
+
+/* GENERAL STYLE */
+
+.pagetitle {
+  text-shadow: 2px 2px 2px gray;
+  padding: 5%;
+}
+
+/* GAMEPLAY STYLE */
+
+.stone {
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+}
+
+.white {
+  background-color: white;
+}
+
+.black {
+  background-color: black;
+}
